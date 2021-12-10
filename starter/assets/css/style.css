@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme+Expanded:wght@800&family=Inknut+Antiqua:wght@800&family=Outfit:wght@400;500;600;800&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+/* HEADER */
+
+
+/* MAIN */

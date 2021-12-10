@@ -18,14 +18,14 @@ header {
     top: 0;
     left: 0;
     z-index: 100;
-    background-color: #F4F6FF;
+    background-color: #f4f6ff;
 }
 
 header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
     max-width: 1200px;
     height: 80px;
     margin-left: auto;
@@ -66,12 +66,13 @@ header nav button.btn-action {
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
+    cursor: pointer;
 }
 
 main {
     overflow: hidden;
     position: relative;
-    background-color: #F4F6FF;
+    background-color: #f4f6ff;
 }
 
 main .home-container {
@@ -86,7 +87,6 @@ main .home-container {
     align-items: center;
     justify-content: center;
     column-gap: 8rem;
-    
     margin-left: auto;
     margin-right: auto;
 }
@@ -129,6 +129,9 @@ main .home-container .hero a {
     background-image: linear-gradient(to top, rgb(70, 78, 246), rgb(102, 108, 246));
 }
 
+main .home-container .hero a span {
+    margin-left: 5px;
+}
 
 main .home-container .hero-img {
     position: relative;
@@ -136,7 +139,6 @@ main .home-container .hero-img {
     justify-self: center;
     width: 570px;
     height: 493px;
-    order: 1;
 }
 
 main .home-container .hero-img img {
